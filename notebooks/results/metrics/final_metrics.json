@@ -1,0 +1,19 @@
+{
+  "baseline_f1": 0.6522,
+  "baseline_accuracy": 0.4839,
+  "lr_mean_f1": 0.4419,
+  "xgb_cv_f1": 0.4839,
+  "xgb_final_f1": 0.5,
+  "xgb_auc_roc": 0.5417,
+  "xgb_directional_accuracy": 0.6,
+  "best_params": {
+    "n_estimators": 222,
+    "max_depth": 4,
+    "learning_rate": 0.012748839346725667,
+    "subsample": 0.9968447677451765,
+    "colsample_bytree": 0.8562375118530273
+  },
+  "top_feature": "headline_count",
+  "dataset_size": 124,
+  "training_period": "2025-02 to 2025-08"
+}
